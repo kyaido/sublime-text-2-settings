@@ -1,0 +1,25 @@
+{
+	"installed_packages":
+	[
+		"AutoFileName",
+		"BracketHighlighter",
+		"CoffeeScript",
+		"ConvertJaZenHan",
+		"ConvertToUTF8",
+		"CSS Extended Completions",
+		"Emmet",
+		"Expand Selection to Quotes",
+		"Gist",
+		"HTML5",
+		"HTMLAttributes",
+		"IMESupport",
+		"IndentGuides",
+		"Jade",
+		"jQuery",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"SCSS",
+		"SublimeLinter",
+		"Theme - Flatland"
+	]
+}
