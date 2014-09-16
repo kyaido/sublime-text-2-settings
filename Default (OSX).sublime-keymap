@@ -1,2 +1,15 @@
 [
+  // Ctrl + Tabで、タブの順番に切り替わるようにする
+  { "keys": ["super+tab"], "command": "next_view" },
+  { "keys": ["super+shift+tab"], "command": "prev_view" },
+  { "keys": ["super+pagedown"], "command": "next_view_in_stack" },
+  { "keys": ["super+pageup"], "command": "prev_view_in_stack" },
+  // テキストをタグで囲むショートカットをDW風キーバインドに
+  { "keys": ["super+t"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
+  // new view into file
+  { "keys": ["super+shift+alt+n"], "command": "clone_file" },
+  // すべてのタブを閉じる
+  { "keys": ["super+shift+w"], "command": "close_all" },
+  // 画像サイズを修正する ※動いてない？
+  { "keys": ["super+shift+alt+i"], "command": "run_emmet_action", "args": { "action": "update_image_size" }, "context": [{"key": "emmet_action_enabled.update_image_size"}]}
 ]

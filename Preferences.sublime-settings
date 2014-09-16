@@ -2,6 +2,7 @@
 	"afn_insert_width_first": true,
 	"auto_complete_selector": "source - comment, text",
 	"bold_folder_labels": true,
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"draw_white_space": "all",
 	"font_face": "Ricty",
