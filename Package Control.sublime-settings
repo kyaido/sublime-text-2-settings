@@ -22,5 +22,8 @@
 		"SCSS",
 		"SublimeLinter",
 		"Theme - Flatland"
+	],
+	"repositories":
+	[
 	]
 }
