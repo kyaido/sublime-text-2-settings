@@ -11,5 +11,7 @@
   // すべてのタブを閉じる
   { "keys": ["ctrl+shift+w"], "command": "close_all" },
   // 画像サイズを修正する ※動いてない？
-  { "keys": ["ctrl+shift+alt+i"], "command": "run_emmet_action", "args": { "action": "update_image_size" }, "context": [{"key": "emmet_action_enabled.update_image_size"}]}
+  { "keys": ["ctrl+shift+alt+i"], "command": "run_emmet_action", "args": { "action": "update_image_size" }, "context": [{"key": "emmet_action_enabled.update_image_size"}]},
+  // インデントの整形のショートカット
+  { "keys": ["ctrl+shift+alt+q"], "command": "reindent" , "args": { "single_line": false } }
 ]
