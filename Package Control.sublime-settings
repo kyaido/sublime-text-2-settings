@@ -2,13 +2,6 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2",
-		"select-windows",
-		"ssl-windows"
-	],
 	"installed_packages":
 	[
 		"AutoFileName",
@@ -17,6 +10,7 @@
 		"ConvertJaZenHan",
 		"ConvertToUTF8",
 		"CSS Extended Completions",
+		"EditorConfig",
 		"Emmet",
 		"Expand Selection to Quotes",
 		"Gist",
