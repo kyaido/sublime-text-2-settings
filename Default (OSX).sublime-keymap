@@ -11,5 +11,5 @@
   // 画像サイズを修正する ※動いてない？
   { "keys": ["super+shift+alt+i"], "command": "run_emmet_action", "args": { "action": "update_image_size" }, "context": [{"key": "emmet_action_enabled.update_image_size"}]},
   // shift + enter で<br>を挿入するDW風キーバインド
-  { "keys": ["shift+enter"], "command": "insert_snippet","args": {"contents": "<br>"} }
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "<br>\n"} }
 ]
