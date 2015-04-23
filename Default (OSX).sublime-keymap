@@ -10,6 +10,26 @@
   { "keys": ["super+shift+w"], "command": "close_all" },
   // 画像サイズを修正する ※動いてない？
   { "keys": ["super+shift+alt+i"], "command": "run_emmet_action", "args": { "action": "update_image_size" }, "context": [{"key": "emmet_action_enabled.update_image_size"}]},
-  // shift + enter で<br>を挿入するDW風キーバインド
-  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "<br>\n"} }
+  // インデントの整形のショートカット
+  { "keys": ["super+ctrl+shift+q"], "command": "reindent" , "args": { "single_line": false } },
+  // HTML編集中、shift + enter で<br>を挿入するDW風キーバインド
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "<br>\n"}, 
+    "context": [
+      {
+        "key": "selector",
+        "operand": "text.html.basic - source",
+        "operator": "equal"
+      }
+    ]
+  },
+  //markdown編集中、shift + enter で改行を挿入する
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "  \n"}, 
+    "context": [
+      {
+        "key": "selector",
+        "operand": "text.html.markdown - source",
+        "operator": "equal"
+      }
+    ]
+  }
 ]
