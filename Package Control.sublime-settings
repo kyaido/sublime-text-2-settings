@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"AutoFileName",
+		"Babel",
 		"BracketHighlighter",
 		"CoffeeScript",
 		"ConvertJaZenHan",
