@@ -20,6 +20,7 @@
 		"HTMLAttributes",
 		"IMESupport",
 		"IndentGuides",
+		"InputSequence",
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
 		"jQuery",
@@ -34,5 +35,6 @@
 	],
 	"repositories":
 	[
+		"https://github.com/kazu1107/InputSequence.git"
 	]
 }
