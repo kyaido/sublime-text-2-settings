@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"IMESupport"
 	],
 	"installed_packages":
 	[
@@ -13,6 +14,7 @@
 		"ConvertToUTF8",
 		"CSS Extended Completions",
 		"EditorConfig",
+		"EJS",
 		"Emmet",
 		"Expand Selection to Quotes",
 		"Gist",
@@ -32,6 +34,7 @@
 		"SCSS",
 		"Smart Delete",
 		"SublimeLinter",
+		"Sublimerge Pro",
 		"Theme - Flatland"
 	],
 	"repositories":

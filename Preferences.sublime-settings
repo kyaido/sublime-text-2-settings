@@ -6,12 +6,13 @@
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"draw_white_space": "all",
 	"font_face": "Ricty",
-	"font_size": 13,
+	"font_size": 18.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"IMESupport",
 		"Vintage"
 	],
 	"match_selection": false,
